@@ -1,0 +1,99 @@
+@charset "UTF-8"
+
+           * {
+              box-sizing: border-box;
+         }
+  
+          body{
+              background-color: hsl(30, 38%, 92%);
+          }
+  
+          .wrapper {
+              background-color: hsl(0, 0%, 100%);
+              width: 320px;
+              height: 500px;
+              border-radius: 10px;
+              font-family: 'Montserrat';
+              margin: 250px 0 0 1000px;
+              
+          }
+  
+          .inner-width {
+              padding: 20px;
+          }
+
+          h1 {
+            font-size: 13px;
+            padding-left: 30px;
+            font-weight: 700;
+            color: hsl(228, 12%, 48%);
+          }
+
+          h2 {
+            padding-left: 30px;
+            font-weight: 700;
+            font-family: 'Fraunces';
+            font-size: 33px;
+            margin-top: 0px;
+          }
+  
+          .pimg {
+              width: 320px;
+              height: 500px;
+              border-top-left-radius: 10px;
+              border-bottom-left-radius: 10px;
+              margin: -500px 0px 900px 700px;
+          }
+  
+          .cart {
+              width: 20px;
+  
+          }
+  
+          p {
+              font-size: 14px;
+              font-family: 'Montserrat';
+              font-weight: 700;
+              padding-left: 30px;
+              color: hsl(228, 12%, 48%);
+              line-height: 170%;
+          }
+  
+          .discount-price {
+            margin-left: 130px;
+            margin-top: -72px;
+            text-decoration: line-through;
+          }
+  
+          .price{
+            color: hsl(158, 36%, 37%);
+            font-size: 33px;
+            font-family: "Fraunces";
+            margin-top: 30px;
+          }
+
+          .cart {
+            font-size: 15px;
+            color: hsl(0, 0%, 100%);
+            background-color: hsl(158, 36%, 37%);
+            width: 230px;
+            height: 50px;
+            border-radius: 10px;
+            margin-left: 30px;
+            border-style: none;
+            margin-top: 20px;
+            font-family: "Montserrat";
+            font-weight: 700;
+          }
+          
+          .cartt:hover {
+            background-color:hsl(212, 21%, 14%);
+            transition: 0.7s;
+        }
+
+          .cartimg {
+            margin-left: 75px;
+            margin-bottom: 100px;
+            margin-top: -32px;
+          }
+  
