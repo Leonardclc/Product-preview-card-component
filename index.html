@@ -7,8 +7,7 @@
     <title>Perfume</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fraunces">
-    <link rel="stylesheet" media="screen and (min-width: 900px)" href="widescreen.css">
-    <link rel="stylesheet" media="screen and (max-width: 600px)" href="smallscreen.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div>
@@ -20,12 +19,12 @@
          <p class="price">$149.99</p>
          <p class="discount-price">$169.99</p>
          <button type="button" class="cart"> Add to Cart</button>
-         <img class="cartimg" src="images/icon-cart.svg" alt="">
+         <img class="cartimg" src="images/icon-cart.svg" alt="cart-img">
         </div>
         </div>
         <picture>
-            <source media="(max-width: 799px)" srcset="m.jpg">
-            <source media="(min-width: 800px)" srcset="d.jpg">
+            <source media="(max-width: 899px)" srcset="./images/mobile-img.jpg">
+            <source media="(min-width: 900px)" srcset="./images/desktop-img.jpg">
             <img src="elva-800w.jpg" class="pimg" alt="Product image"> <!--Blank img-->
           </picture>
     </div>  

@@ -1,0 +1,170 @@
+@charset "UTF-8"
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(30, 38%, 92%);
+  display: flex;
+  justify-content: center;
+}
+
+
+.inner-width {
+  padding: 20px;
+}
+
+.wrapper {
+  background-color: hsl(0, 0%, 100%);
+  width: 345px;
+  height: 340px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-family: 'Montserrat';
+  position: relative;
+  top: 210px;
+}
+
+.pimg {
+  width: 345px;
+  height: 200px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  position: relative;
+  bottom: 330px;
+}
+
+h1 {
+  font-size: 12px;
+  margin-top: 0px;
+  color: hsl(228, 12%, 48%);
+  font-weight: 500px;
+}
+
+h2 {
+  font-size: 30px;
+  margin-top: 0px;
+  font-weight: 700;
+  font-family: "Fraunces";
+}
+
+p {
+  font-size: 14px;
+  margin-top: -6px;
+  color: hsl(228, 12%, 48%);
+}   
+
+
+.cart {
+  font-size: 14px;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(158, 36%, 37%);
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  border-style: none;
+  font-weight: 700;
+  position: relative;
+  bottom: 0.8rem;
+}
+
+.discount-price {
+  text-decoration: line-through;
+  bottom: 4.7rem;
+  left: 9rem;
+  font-weight: 500;
+  position: absolute;
+}
+
+.price {
+  color: hsl(158, 36%, 37%);
+  font-size: 30px;
+  font-family: "Fraunces";
+  position: relative;
+  top: 0.4rem;
+  font-weight: 700;
+}
+
+.cartimg {
+  position: relative;
+  bottom: 2.9rem;
+  left: 5.5rem;
+}
+
+@media only screen and (min-width: 900px) {
+  .pimg {
+    margin: auto;
+    width: 300px;
+    height: 430px;
+    position: relative;
+    top: -12.6rem;
+    right: 9rem;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 0px;
+  }
+  
+  .wrapper {
+    width: 300px;
+    height: 430px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-family: 'Montserrat';
+    position: relative;
+    top: 14.24rem;
+    margin: auto;
+    left: 9.6rem;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+  h1 {
+    position: relative;
+
+    margin: 15px;
+  }
+
+  h2 {
+    position: relative;
+    left: 1rem;
+    width: 200px;
+  }
+
+  p {
+    position: relative;
+    left: 1rem;
+    width: 220px;
+  }
+
+  .price {
+    position: relative;
+    top: 1rem;
+
+  }
+
+  .discount-price {
+    position: relative;
+    top: -2.2rem;
+
+  }
+
+  .cart {
+    position: relative;
+    bottom: 1rem;
+    width: 230px;
+    left: 1rem;
+  }
+
+  .cartimg {
+    position: relative;
+    left: -10.5rem;
+    bottom: 0.8rem;
+  }
+
+  .cart:hover {
+    background-color:hsl(212, 21%, 14%);
+    transition: 0.7s;
+}
